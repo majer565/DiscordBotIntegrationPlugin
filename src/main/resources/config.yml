@@ -13,29 +13,29 @@
 
 #Bot token is needed to run your bot. If you do not know how to get that, you have to follow this tutorial
 #how to create discord bot: https://discord.com/developers/docs/intro
-discord_bot_token: "OTcwMDEwODE5NjQ5NzU3MjU2.Ym1u-Q.jo-lzDIqXhNEpK20490dnazG8jE"
+discord_bot_token: "none"
 
 #Plugin needs guild ID which bot will work in.
 #Provide the correct ID. You can find that by right clint the text channel -> Copy ID.
 #If you do not see that option you have to go into profile settings -> advanced -> developer mode
-discord_guild_ID: "872762870138552370"
+discord_guild_ID: "none"
 
 #Plugin needs text channel ID where the player's messages will be sent.
-discord_messages_textchannel_ID: "970411537305051198"
+discord_messages_textchannel_ID: "none"
 
 #Plugin needs text channel ID where the player's will write commands.
-discord_commands_textchannel_ID: "970410508857524295"
+discord_commands_textchannel_ID: "none"
 
 #Plugin needs role name which allows players to write messages and view the channel.
 #If you want to make text channel public make sure that isPublic: "false" and role: "none".
 #If you want to make text channel private make sure isPublic: "true" and provide correct
 #   role name which allows it.
-discord_messages_textchannel_isPublic: true
-discord_messages_textchannel_role: "mcMessages"
+discord_messages_textchannel_isPublic: false
+discord_messages_textchannel_role: "none"
 
 #Plugin needs role name which allows players to write commands and view the channel.
 #If you want to make text channel public make sure that isPublic: "false" and role: "none".
 #If you want to make text channel private make sure isPublic: "true" and provide correct
 #   role name which allows it.
-discord_commands_textchannel_isPublic: true
-discord_commands_textchannel_role: "mcCommands"
+discord_commands_textchannel_isPublic: false
+discord_commands_textchannel_role: "none"
